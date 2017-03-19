@@ -10,6 +10,7 @@
 		<dbunit.version>2.4.9</dbunit.version>
 		<slf4j.version>1.7.25</slf4j.version>
 		<ojdbc.version>12.1.0</ojdbc.version>
+		<junit.version>4.12</junit.version>
 	</properties>
 
 	<dependencies>
@@ -33,14 +34,24 @@
 			<version>${ojdbc.version}</version>
 		</dependency>
 
+
+
 		<dependency>
 			<groupId>org.dbunit</groupId>
 			<artifactId>dbunit</artifactId>
 			<version>${dbunit.version}</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit.version}</version>
 			<scope>test</scope>
 		</dependency>
 
 	</dependencies>
+
 
 
 
